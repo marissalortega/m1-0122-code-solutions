@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-third {
+  width: 100%;
+  flex-basis: calc(100% / 3);
+}
+
+.column-one-fourth {
+  width: 100%;
+  flex-basis: calc(100% / 4);
+}
+
+.half {
+  width: 100%;
+  flex-basis: calc(100% / 2);
+}
+
+img {
+  width: 100%;
+}
