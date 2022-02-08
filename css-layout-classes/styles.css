@@ -13,18 +13,15 @@ body {
 }
 
 .column-one-third {
-  width: 100%;
   flex-basis: calc(100% / 3);
 }
 
 .column-one-fourth {
-  width: 100%;
   flex-basis: calc(100% / 4);
 }
 
-.half {
-  width: 100%;
-  flex-basis: calc(100% / 2);
+.column-two-thirds {
+  flex-basis: calc(2 * 100% / 3);
 }
 
 img {
