@@ -1,0 +1,35 @@
+body {
+  max-width: 1080px;
+}
+
+.background-on {
+  background-color: rgb(253 249 242);
+}
+
+.background-off {
+  background-color: rgb(17 17 17);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.lightbulb {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-width: 32px;
+  margin-top: 200px;
+}
+
+.turn-on {
+  background-color: rgb(248 233 146);
+  border-color: rgb(252 244 215);
+  box-shadow: 0 0 40px 6px rgb(247 250 89);
+}
+
+.turn-off {
+  background-color: rgb(37 37 37);
+  border-color: rgb(5 5 5);
+}
