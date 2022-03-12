@@ -1,0 +1,62 @@
+.open-modal-button {
+  color: white;
+  background-color: rgb(71 81 224);
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 4px 24px;
+  box-shadow: 1px 1px lightgray;
+}
+
+.open-modal-button:active {
+  transform: translateY(2px);
+}
+
+.modal {
+  background-color: rgb(0 0 0 / 80%);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modal-off {
+  display: none;
+  background-color: rgb(0 0 0 / 80%);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modal-content {
+  background-color: white;
+  margin: 160px auto auto;
+  padding: 32px 16px;
+  border: none;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  width: 304px;
+}
+
+.no-button {
+  color: white;
+  background-color: rgb(219 102 98);
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 8px 24px;
+  box-shadow: 1px 2px lightgray;
+  margin-top: 24px;
+}
+
+.no-button:active {
+  transform: translateY(2px);
+}
