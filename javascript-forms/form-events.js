@@ -12,13 +12,18 @@ function handleInput(event) {
   console.log('value of name:', event.target.value);
 }
 
-var input = document.querySelector('input');
-var textArea = document.querySelector('textarea');
+var inputName = document.querySelector("input[name ='name']");
+var inputEmail = document.querySelector("input[name='email']");
+var textAreaMessage = document.querySelector("textarea[name='message']");
 
-input.addEventListener('focus', handleFocus);
-input.addEventListener('blur', handleBlur);
-input.addEventListener('input', handleInput);
+inputName.addEventListener('focus', handleFocus);
+inputName.addEventListener('blur', handleBlur);
+inputName.addEventListener('input', handleInput);
 
-textArea.addEventListener('focus', handleFocus);
-textArea.addEventListener('blur', handleBlur);
-textArea.addEventListener('input', handleInput);
+inputEmail.addEventListener('focus', handleFocus);
+inputEmail.addEventListener('blur', handleBlur);
+inputEmail.addEventListener('input', handleInput);
+
+textAreaMessage.addEventListener('focus', handleFocus);
+textAreaMessage.addEventListener('blur', handleBlur);
+textAreaMessage.addEventListener('input', handleInput);
