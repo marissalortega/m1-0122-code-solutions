@@ -8,4 +8,5 @@ contactForm.addEventListener('submit', function (event) {
     message: contactForm.elements.message.value
   };
   console.log('messageData', messageData);
+  document.getElementById('contact-form').reset();
 });
