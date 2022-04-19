@@ -65,18 +65,21 @@ h2 {
   margin-right: auto;
 }
 
-.reimagined-image-cont {
+.reimagined-image-cont,
+.product-row-one-image-cont {
   width: 1080px;
   height: 525px;
 }
 
-.reimagined-image {
+.reimagined-image,
+.product-row-one-image-cont > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.reimagined-overlay {
+.reimagined-overlay,
+.product-header-overlay {
   background: rgb(77 77 79 / 25%);
   position: absolute;
   top: 0;
@@ -92,7 +95,8 @@ h2 {
   left: 72px;
 }
 
-.reimagined-p {
+.reimagined-p,
+.product-p {
   font-family: Avenir, Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 28px;
@@ -203,11 +207,17 @@ h3 {
   margin-top: 56px;
 }
 
-.footer-three-column-row {
+.footer-dark-gray-background {
   width: 100%;
-  height: 448px;
-  color: white;
   background-color: rgb(82 83 81);
+}
+
+.footer-three-column-row {
+  width: 1080px;
+  height: 448px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
   display: flex;
   font-family: Avenir, Arial, Helvetica, sans-serif;
   margin-top: 24px;
@@ -216,7 +226,6 @@ h3 {
 .footer-column-one {
   flex-basis: 50%;
   padding-top: 112px;
-  padding-left: 96px;
 }
 
 .footer-column-one > p {
@@ -269,9 +278,96 @@ h4 {
 
 .footer-bottom-content {
   padding-top: 63.5px;
-  padding-left: 100px;
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-bottom-content > span {
   padding-right: 40px;
+}
+
+.current-page {
+  color: rgb(48 67 98);
+}
+
+.product-row-one {
+  position: relative;
+  width: 1080px;
+  margin-top: 128px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-content {
+  position: absolute;
+  top: 152px;
+  color: white;
+  left: 72px;
+}
+
+.product-h2 {
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.product-rows {
+  display: flex;
+  align-items: center;
+  width: 1080px;
+  height: 720px;
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-rows-image {
+  width: 50%;
+}
+
+.product-rows-image > img {
+  max-width: 100%;
+}
+
+.product-rows-content {
+  width: 50%;
+}
+
+.content-padding-left {
+  padding-left: 80px;
+}
+
+.content-padding-right {
+  padding-right: 80px;
+}
+
+.product-rows-content > h2 {
+  font-family: "Tiempos Headline", "Times New Roman", Times, serif;
+  font-size: 28px;
+  font-weight: normal;
+  color: rgb(70 71 70);
+  letter-spacing: 0.5px;
+  margin-bottom: 32px;
+}
+
+.product-rows-content > p {
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(70 71 70);
+  line-height: 24px;
+}
+
+p.blue-color {
+  color: rgb(48 67 98);
+}
+
+p.italicize {
+  font-family: "Tiempos Headline", "Times New Roman", Times, serif;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.row-gray-background {
+  width: 100%;
+  background-color: rgb(250 250 250);
 }
