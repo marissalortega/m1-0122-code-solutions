@@ -67,14 +67,16 @@ h2 {
 
 .reimagined-image-cont,
 .product-row-one-image-cont,
-.impl-row-one-image-cont {
+.impl-row-one-image-cont,
+.about-row-one-image-cont {
   width: 1080px;
   height: 525px;
 }
 
 .reimagined-image,
 .product-row-one-image-cont > img,
-.impl-row-one-image-cont > img {
+.impl-row-one-image-cont > img,
+.about-row-one-image-cont > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -82,7 +84,8 @@ h2 {
 
 .reimagined-overlay,
 .product-header-overlay,
-.impl-header-overlay {
+.impl-header-overlay,
+.about-header-overlay {
   background: rgb(77 77 79 / 25%);
   position: absolute;
   top: 0;
@@ -100,7 +103,8 @@ h2 {
 
 .reimagined-p,
 .product-p,
-.impl-p {
+.impl-p,
+.about-p {
   font-family: Avenir, Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 28px;
@@ -296,7 +300,8 @@ h4 {
 }
 
 .product-row-one,
-.impl-row-one {
+.impl-row-one,
+.about-row-one {
   position: relative;
   width: 1080px;
   margin-top: 128px;
@@ -318,10 +323,17 @@ h4 {
   left: 72px;
 }
 
+.about-content {
+  position: absolute;
+  top: 160px;
+  color: white;
+  left: 72px;
+}
+
 .product-h2,
-.impl-h2 {
+.impl-h2,
+.about-h2 {
   font-size: 34px;
-  font-weight: 400;
 }
 
 .product-rows {
@@ -434,4 +446,134 @@ p.italicize {
 
 .gray-line {
   border-bottom: 2px solid rgb(237 237 240);
+}
+
+.about-what-we-believe,
+.our-story {
+  width: 640px;
+  margin: 80px auto;
+}
+
+.about-what-we-believe > h2,
+.our-story > h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: rgb(70 71 70);
+}
+
+.about-what-we-believe > p,
+.our-story > p {
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: rgb(82 83 81);
+}
+
+.our-team-container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(250 250 250);
+}
+
+.our-team-row {
+  display: flex;
+  justify-content: center;
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-team-row > h3 {
+  margin-top: 80px;
+  margin-bottom: 48px;
+  color: rgb(70 71 70);
+}
+
+.our-team-one-third {
+  flex-basis: calc(100% / 3);
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.our-team-one-third > h3 {
+  color: rgb(70 71 70);
+}
+
+.our-team-one-third > p {
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  color: rgb(70 71 70);
+}
+
+.our-team-image-container {
+  width: 216px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.our-team-image-container > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.clinical-ad-board-container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(250 250 250);
+}
+
+.clinical-ad-row {
+  display: flex;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clinical-ad-row > h3 {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+  color: rgb(70 71 70);
+  font-size: 36px;
+}
+
+.clinical-ad-one-third {
+  flex-basis: calc(100% / 3);
+  text-align: center;
+}
+
+.clinical-ad-left-align {
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+.clinical-ad-one-third > p,
+.clinical-ad-left-align > p {
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  color: rgb(70 71 70);
+}
+
+.clinical-ad-left-align > p {
+  margin-bottom: 104px;
+}
+
+p.dark-blue {
+  color: rgb(48 67 98);
+}
+
+p.bold {
+  font-weight: bold;
+}
+
+.our-story > h3 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: rgb(70 71 70);
 }
